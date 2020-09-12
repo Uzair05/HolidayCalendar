@@ -50,7 +50,7 @@ $("document").ready(()=>{
 
 
 
-    var apiM = m+1;
+    var apiM = 10;//m+1;
 
 
     for (var i = 1; i <= lastDay.getDate(); i++){

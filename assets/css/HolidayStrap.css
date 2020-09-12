@@ -3,6 +3,19 @@
     --base_width: 16in;
 }
 
+
+
+#titlebar > h2#heading{
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+#titlebar > p#heading-legend{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
 #holidayBOX{
     width: var(--base_width);
     height: var(--base_height);
@@ -43,7 +56,7 @@
 
 .calendarDay.holidayEvent{
     background-color: rgba(211, 45, 147, 0.5);
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .calendarDay.holidayEvent > p {
